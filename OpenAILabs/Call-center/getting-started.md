@@ -7,7 +7,15 @@ In this hands-on lab, you will learn how to effectively extract insights from cu
 
  ![](images/archdiag.png)
 
-## Getting started with your Call Center Data Analysis using Azure AI services and Azure Open AI Workshop
+## Lab Overview
+
+In this Hands-on-lab, you will perform the following tasks.
+
++ Task 1: Provision Azure resources.
++ Task 2: Upload audio files.
++ Task 3: Visualization using PowerBI Report and Dashboard
+
+## Getting started with the Lab
 
 Welcome to your Call Center Data Analysis using Azure AI services and Azure Open AI workshop! We've prepared a seamless environment for you to explore and learn about extracting insights from customer conversations within a call center using Azure AI services and Azure OpenAI Service. Let's begin by making the most of this experience:
 
