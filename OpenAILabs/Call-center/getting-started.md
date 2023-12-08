@@ -13,7 +13,7 @@ In this Hands-on-lab, you will perform the following tasks.
 
 + Task 1: Provision Azure resources.
 + Task 2: Upload audio files.
-+ Task 3: Visualization using PowerBI Report and Dashboard
++ Task 3: Visualization using PowerBI Report and Dashboard.
 
 ## Getting started with the Lab
 
