@@ -133,4 +133,12 @@ In this task, you will utilize the existing comprehensive Power BI report. Your 
    
 ### End of Task-3
 
+#### Review
+
+In this lab, you have completed the following:
+
+- Provisioned Azure resources.
+- Uploaded audio files to analyze the summary.
+- Utilised PowerBI to visualise the OpenAI extracted data.
+  
 ## Congratulations! You have successfully completed the lab.
