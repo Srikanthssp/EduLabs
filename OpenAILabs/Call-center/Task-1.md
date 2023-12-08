@@ -10,9 +10,9 @@ In this task, you will deploy an ARM Template to provision the necessary resourc
 
    * **Key Vault**: Stores secrets such as keys and connection string values securely.
 
-   * **Speech Service**: Utilized for transcribing audio files.
+   * **Speech Service**: Utilized for transcribing audio files (Speech to Text).
 
-   * **OpenAI Service**: Performs sentiment analysis on the conversation summary.
+   * **OpenAI Service**: To summarize the conversation and also to perform sentiment analysis.
 
    * **StartTranscription Function App**: Contains code triggered by a timer, initiating a transcription request using Azure Speech Services batch pipeline. Upon completion, an event is placed in another queue within the same Service Bus resource.
 
