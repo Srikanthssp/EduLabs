@@ -1,6 +1,6 @@
 ## Task 2: Upload audio file 
 
-In this task , you will upload a audio file which will be converted to text transcription and then further it will be analysed using Azure Open AI and Function App.
+In this task , you will upload a audio files (sample agent-customer conversations) which will be converted to text transcription and then further it will be analysed using Azure Open AI and Function App.
 
 * When a file lands in the storage container **audio-input**, an Event Grid event signals the completion of the file upload. The file is then filtered and pushed to a Service Bus queue. The code within the Azure Functions **StartTranscriptionFunction** is triggered by a timer, picking up the event and initiating a transmission request using the Azure Speech Services batch pipeline. After the transmission request is complete, an event is placed in another queue within the same Service Bus resource. Subsequently, a separate Azure Function, **FetchTranscriptionFunction**, triggered by the completion event, begins monitoring the transcription completion status. Upon transcription completion, this Azure Function copies the transcript into the **json-result-output** container.
 
