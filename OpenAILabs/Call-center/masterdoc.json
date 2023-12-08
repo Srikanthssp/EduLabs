@@ -5,20 +5,24 @@
     "BaseURL": "https://github.com/Srikanthssp/EduLabs/blob/main/OpenAILabs/Call-center",
     "Files": [
       {
-        "RawFilePath": "https://raw.githubusercontent.com/Srikanthssp/EduLabs/main/OpenAILabs/Call-center/getting-started.md",
+        "RawFilePath": "https://raw.githubusercontent.com/Srikanthssp/EduLabs/main/OpenAILabs/Call-center/Lab-Intro.md",
         "Order": 1
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/Srikanthssp/EduLabs/main/OpenAILabs/Call-center/Task-1.md",
+        "RawFilePath": "https://raw.githubusercontent.com/Srikanthssp/EduLabs/main/OpenAILabs/Call-center/getting-started.md",
         "Order": 2
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/Srikanthssp/EduLabs/main/OpenAILabs/Call-center/Task-2.md",
+        "RawFilePath": "https://raw.githubusercontent.com/Srikanthssp/EduLabs/main/OpenAILabs/Call-center/Task-1.md",
         "Order": 3
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/Srikanthssp/EduLabs/main/OpenAILabs/Call-center/Task-3.md",
+        "RawFilePath": "https://raw.githubusercontent.com/Srikanthssp/EduLabs/main/OpenAILabs/Call-center/Task-2.md",
         "Order": 4
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/Srikanthssp/EduLabs/main/OpenAILabs/Call-center/Task-3.md",
+        "Order": 5
       }
     ]
   }
