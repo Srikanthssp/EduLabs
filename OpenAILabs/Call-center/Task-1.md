@@ -1,6 +1,6 @@
 ## Task 1: Provision Azure resources
 
-In this task, you will deploy an ARM Template to provision the necessary resources for the lab to seamlessly process the audio files to extract the summary and perform sentiment analysis using OpenAI service.
+In this task, you will deploy an ARM Template to provision the necessary resources for the lab, facilitating the seamless processing of audio files for transcription, sentiment analysis, and conversation summary.
 
    * **Storage Account**: Used for uploading audio files and storing transcribed files.
 
