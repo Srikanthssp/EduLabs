@@ -2,7 +2,7 @@
   {
     "Name": "Call Center data analysis using Azure AI services and Azure OpenAI",
     "Language": "English",
-    "BaseURL": "https://github.com/CloudLabs-Samples/EduLabs/blob/main/OpenAILabs/Call-center",
+    "BaseURL": "https://github.com/Srikanthssp/EduLabs/blob/main/OpenAILabs/Call-center",
     "Files": [
       {
         "RawFilePath": "https://raw.githubusercontent.com/Srikanthssp/EduLabs/main/OpenAILabs/Call-center/getting-started.md",
