@@ -52,6 +52,10 @@ In this task, you will deploy an ARM Template to provision the necessary resourc
    
 1. Wait for deployment to be completed.It might take around 6-7 mins.
 
+1. If the deployment got failed, select **Redeploy** and proceed from step 6 again.
+
+    ![](images/s42.png)
+
 ### End of Task-1
 
 ## Proceed to Next Task
