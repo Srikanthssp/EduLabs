@@ -6,23 +6,25 @@ In this task , you will upload a audio files (sample agent-customer conversation
 
 * Next, using the code of **AnalyzeTranscription** function the JSON file(transcript) from the **json-result-output** container is further analyzed using **Azure OpenAI** resource and the **Conversation summary** ,sentiment analysis whether it is **Positive or Negative** is further loaded to a **SQL Database** which will be used for Visualization in the next task
 
-1. **Restart** all the three function apps and make sure all are **Running**
+1. Navigate to each functionapp and click on **Restart** and make sure all are **Running**
 
+    ![](images/s51.png)
+   
    ![](images/s8.png)
 
-2. Navigate to the Storage account **callcenterstore<inject key="Deployment-id" enableCopy="false"></inject>**
+3. Navigate to the Storage account **callcenterstore<inject key="Deployment-id" enableCopy="false"></inject>**
 
-3. Select **Containers** from the **Data Storage** section, select the **audio-input** container
+4. Select **Containers** from the **Data Storage** section, select the **audio-input** container
 
    ![](images/25.png)
 
-4. Next, upload two or more audio file from the VM Path:**C:\LabFiles\Recordings** to the **audio-input** container
+5. Next, upload two or more audio file from the VM Path:**C:\LabFiles\Recordings** to the **audio-input** container
 
     ![](images/s40.png)
 
-5. The audio file or the call recording uploaded to the **audio-input** will be processed and transcribed in JSON format to another container **json-result-output**
+6. The audio file or the call recording uploaded to the **audio-input** will be processed and transcribed in JSON format to another container **json-result-output**
 
-6. Wait for atleast 5-6 mins for the to see the json files in **json-result-output** container.
+7. Wait for atleast 5-6 mins for the to see the json files in **json-result-output** container.
 
 ### End of Task-2
 
