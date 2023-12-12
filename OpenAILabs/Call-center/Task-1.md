@@ -52,9 +52,42 @@ In this task, you will deploy an ARM Template to provision the necessary resourc
    
 1. Wait for deployment to be completed.It might take around 6-7 mins.
 
-1. If the deployment got failed, select **Redeploy** and proceed from step 6 again.
+## Deployment Failure Handling:
 
-    ![](images/s42.png)
+In case of a deployment failure, especially due to database provision errors or other resource provision issues, follow these steps to rectify the situation.
+
+* **Navigate to the Resource Group**:
+
+   * Access the **callcenter-<inject key="Deployment-id" enableCopy="false"></inject>** resource group from the deployment blade.
+
+   ![](images/s43.png)
+
+
+* **Delete the Database Resource**:
+
+   * Scroll down to the resources and select the **Database-<inject key="Deployment-id" enableCopy="false"></inject>** and click on **Delete** to remove the database resource.
+
+   ![](images/s44.png)
+
+* **Confirm Deletion**:
+
+   * On the **Delete Resources** blade, confirm deletion by entering **delete** in the text box and click on **Delete** to proceed.
+
+   ![](images/s45.png)
+  
+* **Navigate to Failed Deployment Overview**:
+
+   * Under the resource group, select Deployments under settings and click on the deployment with a failed status to navigate to the overview of the failed deployment.
+  
+   ![](images/s46.png)
+  
+   ![](images/s47.png)
+
+* **Initiate Redeployment**:
+
+   * Select **Redeploy** and follow steps 6 and 7 again and Wait for the deployment to succeed.
+     
+   ![](images/s48.png)
 
 ### End of Task-1
 
