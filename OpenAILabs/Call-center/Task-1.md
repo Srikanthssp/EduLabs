@@ -87,7 +87,7 @@ In case of a deployment failure, especially due to database provision errors or 
 
    * Select **Redeploy** and follow steps 6 and 7 again and Wait for the deployment to succeed.
      
-   ![](images/s49.png)
+   ![](images/s50.png)
 
 ### End of Task-1
 
