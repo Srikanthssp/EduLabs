@@ -8,7 +8,7 @@ The main objectives of this hands-on lab are to implement real-time and post-cal
 
 ## Architecture diagram
 
- ![](images/archydiagramnew.png)
+ ![](images/finalarch.png)
 
 ## Lab Overview
 
