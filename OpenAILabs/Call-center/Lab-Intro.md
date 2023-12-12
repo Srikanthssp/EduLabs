@@ -10,6 +10,14 @@ The main objectives of this hands-on lab are to implement real-time and post-cal
 
  ![](images/archydiagramnew.png)
 
+## Lab Overview
+
+In this Hands-on-lab, you will perform the following tasks.
+
++ Task 1: Provision Azure resources.
++ Task 2: Upload audio files.
++ Task 3: Visualization using PowerBI Report and Dashboard.
+
 ## Dataflow
 
 * **Phone Call Recording**:
@@ -41,12 +49,5 @@ The main objectives of this hands-on lab are to implement real-time and post-cal
 * **Data-Driven Decision-Making**:
      Call center management benefits from data-driven decision-making, leading to strategic improvements in service delivery.
 
-## Lab Overview
-
-In this Hands-on-lab, you will perform the following tasks.
-
-+ Task 1: Provision Azure resources.
-+ Task 2: Upload audio files.
-+ Task 3: Visualization using PowerBI Report and Dashboard.
 
 Seize the opportunity to blend technology and strategy, unlocking the potential of AI in a call center environment
